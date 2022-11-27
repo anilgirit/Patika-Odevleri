@@ -16,6 +16,7 @@ body {
 .main-header {
     color: red;
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .nav-header {
