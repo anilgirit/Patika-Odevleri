@@ -1,0 +1,42 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.bg-yellow {
+    background-color: #ffc017;
+}
+
+.border-buttom-dark {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.black-button {
+    border-color: rgba(25, 25, 25, 1);
+    background: rgba(25, 25, 25, 1);
+    border-radius: 99em;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.hit-count {
+    margin-right: 16px;
+    width: 40px;
+    flex: 0 0 auto;
+    position: relative;
+    top: -10px;
+}
+
+.hit-cunt-span {
+    color: rgba(230, 230, 230, 1);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0;
+}
+
