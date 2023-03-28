@@ -6,7 +6,6 @@ function App() {
     <div className="App">
       {/* bütün componentleri içeren contacts componenti oluşturuldu */}
       <Contacts></Contacts> 
-      <input type="text" />
     </div>
   );
 }
