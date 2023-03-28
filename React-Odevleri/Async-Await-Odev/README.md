@@ -5,4 +5,4 @@
 
 ### Proje Hakkında
 
-Bu basit to-do uygulamasında input'tan aldığımız ifade todo list'e ekleniyor. 
+JsonPlaceHolder dan aldığımız user verileri asenkron şekilde kaydediliyor 
