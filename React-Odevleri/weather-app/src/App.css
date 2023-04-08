@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../public/istanbul.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+.header {
+    text-align: center;
+}
+
+.container {
+    max-width: 760px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.select-box {
+    background-color: #f6fafd;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+.select-box select {
+    padding: 7.5px;
+    border-radius: 6px;
+    border-color: #d2dbe5;
+    cursor: pointer;
+}
+
+.days {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.days .day {
+    padding: 5px 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.day  span {
+    color: #797979;
+}
+
+.days .day:hover {
+    color: #797979;
+}
+
+.days .day:hover .day-img {
+    cursor: pointer;
+}
+
+.days .day:first-child {
+    border: solid 3px #ececec;
+    border-radius: 5px;
+    background-color: #fbfcff;
+}
+
+.days .day-img {
+    width: 100%;
+    max-width: 80px;
+    transition: transform 0.5s;
+}
+
+.days .day-deg span:first-child {
+    color: white;
+    margin-right: 5px;
+}
