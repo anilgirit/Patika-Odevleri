@@ -1,0 +1,38 @@
+button.btn{
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 11px;
+  min-width: 125px;
+  margin: 5px;
+
+  
+
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  border-radius: 5px;
+}
+button.primary {
+  border: 0px;
+  background: #3498db;
+  color: #ffffff;
+  
+}
+button.default {
+  border: 2px solid rgb(157, 157, 163);
+}
+button.dashed {
+  border: 2px dotted rgb(157, 157, 163);
+}
+button.text {
+  border: 0px rgb(157, 157, 163);
+}
+button.link {
+  border: 0px rgb(157, 157, 163);
+  color: blue;
+}
+button:hover {
+  opacity: 0.9;
+}
